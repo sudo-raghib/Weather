@@ -14,6 +14,13 @@
 
 ## Overview
 
+- View the current weather conditions for a all metro cities in one go.
+- Weather will be retrieve continuosly at a fixed interval. 
+- The interval for fetching current weather data is user-configurable.
+- View a daily summary of weather conditions for each city.
+- Visualize weather summary data trend using interactive charts.
+- Summary data is persisted in database. 
+
 ## Tech Stack
 
 - **Frontend:** React
