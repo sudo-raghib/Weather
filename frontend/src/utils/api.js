@@ -1,6 +1,5 @@
 export async function getData(url) {
   try {
-    console.log("url", url);
     const response = await fetch(url, {
       method: "GET",
       headers: {
