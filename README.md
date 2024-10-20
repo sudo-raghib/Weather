@@ -1,6 +1,10 @@
-# Rule Engine Application
-**Demo** https://drive.google.com/file/d/1BdQBywO8eIIpaAHm4fMzaD_0rbK4nCUQ/view?usp=sharing
+# Weather App
 
+### Current Weather
+<img width="1728" alt="Screenshot 2024-10-21 at 12 17 02 AM" src="https://github.com/user-attachments/assets/9216d18c-7e3c-4660-8ec5-ca90ada850db">
+
+### Weather Summary
+![screencapture-localhost-5173-summary-2024-10-21-00_17_47](https://github.com/user-attachments/assets/b4a9d6c0-3b62-4a79-befb-1626d8b508b7)
 
 ## Table of Contents
 - [Overview](#overveiw)
