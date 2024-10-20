@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import CurrentWeatherCard from "../components/CurrentWeatherCard";
 import { CITIES, WEATHER_INTERVAL } from "../constants";
 

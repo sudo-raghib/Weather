@@ -10,10 +10,9 @@ export default function WeatherSummary() {
   const [weatherSummary, setWeatherSummary] = useState(null);
 
   const handleFetchData = async () => {
-    console.log("handle fetcj", selectedCity);
     try {
       const response = await getData(
-        `${CONFIG.API_BASE_URL}/summary/${selectedCity}`
+        `${CONFIG.API_BASE_URL}/summaries/${selectedCity}`
       );
       setWeatherSummary(response);
     } catch (error) {
@@ -22,8 +21,10 @@ export default function WeatherSummary() {
   };
 
   return (
-    <div>
-      <h1>Weather Summary</h1>
+    <div className="container mx-auto px-4 py-8">
+      <h1 className="text-4xl font-bold mb-8 text-center text-blue-600">
+        Weather Summary
+      </h1>
       <div className="mb-4 flex justify-center items-center">
         <select
           value={selectedCity}
@@ -44,7 +45,9 @@ export default function WeatherSummary() {
         </button>
       </div>
 
-      <WeatherSummaryCard data={weatherSummary} />
+      <WeatherSummaryCard
+        data={weatherSummary && weatherSummary[weatherSummary.length - 1]}
+      />
       <WeatherChart data={weatherSummary} />
     </div>
   );
