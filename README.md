@@ -15,7 +15,6 @@
 - **Frontend:** React
 - **Backend:** Node.js, Express.js
 - **Databse:** MongoDB
-- 
 
 ## Installation
 
