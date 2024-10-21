@@ -24,6 +24,7 @@
 ## Tech Stack
 
 - **Frontend:** React
+- **Visualisation Library**: Chart.js
 - **Backend:** Node.js, Express.js
 - **Databse:** MongoDB
 
